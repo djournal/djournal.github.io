@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <!-- Viewport -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Basic SEO -->
+    <title>Djournal ☕︎</title>
+    <meta name="title" content="Djournal ☕︎" />
+    <meta name="description" content="It's a cup of coffee" />
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn, etc.) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Djournal ☕︎" />
+    <meta property="og:description" content="It's a cup of coffee" />
+    <meta property="og:image" content="/assets/image.jpg" />
+    <meta property="og:url" content="/" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Djournal ☕︎" />
+    <meta name="twitter:description" content="It's a cup of coffee" />
+    <meta name="twitter:image" content="/assets/image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="/favicon.ico" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/docute.css" />
+
+    <style>
+      .Main {
+        min-height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="docute"></div>
+    <script src="/assets/docute.js"></script>
+    <script>
+      const THEME = {
+        light: {
+          "--page-background": "#f4f6fa",
+          "--main-background": "#f4f6fa",
+          "--header-background": "#fafbfd",
+          "--sidebar-background": "#fafbfd",
+
+          "--text-color": "#0f1520",
+          "--link-color": "#2563eb",
+          "--accent-color": "#2563eb",
+
+          "--border-color": "#dde3ee",
+
+          "--sidebar-link-color": "#0f1520",
+          "--sidebar-link-active-color": "#2563eb",
+          "--nav-link-color": "#0f1520",
+
+          "--code-block-background": "#eef3ff",
+          "--code-block-text-color": "#0f1520",
+          "--inline-code-background": "#eef3ff",
+          "--inline-code-color": "#0f1520",
+
+          "--search-result-background": "#ffffff",
+          "--table-header-background": "#dde3ee",
+          "--table-header-color": "#0f1520",
+        },
+
+        warm: {
+          "--page-background": "#f7f3ee",
+          "--main-background": "#f7f3ee",
+          "--header-background": "#fdfaf7",
+          "--sidebar-background": "#fdfaf7",
+
+          "--text-color": "#1a1410",
+          "--link-color": "#c4502a",
+          "--accent-color": "#c4502a",
+
+          "--border-color": "#e8ddd2",
+
+          "--sidebar-link-color": "#1a1410",
+          "--sidebar-link-active-color": "#c4502a",
+          "--nav-link-color": "#1a1410",
+
+          "--code-block-background": "#f5eae4",
+          "--code-block-text-color": "#1a1410",
+          "--inline-code-background": "#f5eae4",
+          "--inline-code-color": "#1a1410",
+
+          "--search-result-background": "#ffffff",
+          "--table-header-background": "#e8ddd2",
+          "--table-header-color": "#1a1410",
+        },
+
+        dark: {
+          "--page-background": "#0f1117",
+          "--main-background": "#0f1117",
+          "--header-background": "#161b27",
+          "--sidebar-background": "#161b27",
+
+          "--text-color": "#e8edf5",
+          "--link-color": "#5b8def",
+          "--accent-color": "#5b8def",
+
+          "--border-color": "#1e2738",
+
+          "--sidebar-link-color": "#e8edf5",
+          "--sidebar-link-active-color": "#5b8def",
+          "--nav-link-color": "#e8edf5",
+
+          "--code-block-background": "#1a2540",
+          "--code-block-text-color": "#e8edf5",
+          "--inline-code-background": "#1a2540",
+          "--inline-code-color": "#e8edf5",
+
+          "--search-result-background": "#27292f",
+          "--table-header-background": "#1e2738",
+          "--table-header-color": "#e8edf5",
+        },
+      };
+
+      const getDocuteTheme = () => {
+        const val = localStorage.getItem("docute:theme");
+
+        if (val === "dark") return "dark";
+        if (val === "default") return "warm";
+
+        return window.matchMedia("(prefers-color-scheme: dark)").matches
+          ? "dark"
+          : "warm";
+      };
+
+      const applyThemeOverride = () => {
+        const themeName = getDocuteTheme();
+        const theme = THEME[themeName];
+
+        const root = document.documentElement;
+
+        for (const key in theme) {
+          root.style.setProperty(key, theme[key]);
+        }
+
+        if (themeName == "dark") {
+          document.body.style.background =
+            "linear-gradient(to right,#161b27 0%,#161b27 50%,#0f1117 50%,#0f1117 100%)";
+        } else {
+          document.body.style.background =
+            "linear-gradient(to right,#fdfaf7 0%,#fdfaf7 50%,#f7f3ee 50%,#f7f3ee 100%)";
+        }
+      };
+
+      new Docute({
+        target: "#docute",
+        darkThemeToggler: true,
+        title: "Djournal ☕︎",
+        logo: {
+          data() {
+            return {
+              theme: localStorage.getItem("docute:theme"),
+            };
+          },
+          template: `
+            <div style="display:flex;align-items:center;gap:10px">
+              <img :src="logo" style="height:26px;border-radius:5px" />
+              <strong>{{ name }}</strong>
+            </div>
+          `,
+          computed: {
+            logo() {
+              return this.theme === "dark"
+                ? "/assets/logo_dark.png"
+                : "/assets/logo_light.png";
+            },
+            name() {
+              return this.theme === "dark" ? "Djournal 🌙" : "Djournal ⛅";
+            },
+          },
+          mounted() {
+            // watch theme changes
+            window.addEventListener("storage", () => {
+              this.theme = localStorage.getItem("docute:theme");
+            });
+
+            // fallback (since same-tab storage doesn't fire)
+            setInterval(() => {
+              const t = localStorage.getItem("docute:theme");
+              if (t !== this.theme) this.theme = t;
+            }, 300);
+          },
+        },
+        nav: [{ title: "About", link: "/about" }],
+        sidebar: [
+          {
+            title: "Office Hours",
+            children: [
+              {
+                title: "2026",
+                link: "/office/2026/",
+              },
+              {
+                title: "2025",
+                link: "/office/2025/",
+              },
+            ],
+          },
+          {
+            title: "After Hours",
+            link: "/offduty/",
+          },
+        ],
+      });
+
+      // ✅ WAIT until Docute injects style
+      const waitForStyle = setInterval(() => {
+        const target = document.getElementById("docute-inserted-style");
+
+        if (!target) return;
+
+        clearInterval(waitForStyle);
+
+        // apply once AFTER docute ready
+        applyThemeOverride();
+
+        // observe ALL changes (important)
+        const observer = new MutationObserver(() => {
+          applyThemeOverride();
+        });
+
+        observer.observe(target, {
+          childList: true,
+          characterData: true,
+          subtree: true,
+        });
+      }, 50);
+    </script>
+  </body>
+</html>

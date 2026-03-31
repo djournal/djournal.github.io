@@ -1,0 +1,20 @@
+# Operating System files
+.DS_Store # Mac OS
+Thumbs.db # Windows
+Desktop.ini # Windows
+*.swp # Linux/Vim temporary files
+*~ # Linux/Vim backup files
+
+# Build/Output directories
+site/ # Common directory for generated static sites (e.g., MkDocs)
+dist/ # General build output directory
+build/ # General build output directory
+
+# Editor/IDE specific files (optional, add as needed)
+.vscode/ # Visual Studio Code settings
+.idea/ # JetBrains IDEs (IntelliJ, PyCharm, etc.)
+*.sublime-project # Sublime Text project files
+*.sublime-workspace # Sublime Text workspace files
+
+# Environment variables
+.env
