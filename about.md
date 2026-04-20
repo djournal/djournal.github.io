@@ -1,12 +1,10 @@
-# A quiet place to think
-
-Halo! Selamat datang di _mini space_ ini.
+# About
 
 Saya seorang _programmer_ yang menghabiskan banyak waktu di depan layar untuk menulis kode, merapikan logika, dan sesekali bertanya-tanya kenapa sesuatu yang terlihat sederhana bisa jadi rumit.
 
 Sehari-hari saya bekerja dengan JavaScript—Node.js dan Python. Tapi lebih dari sekadar _tools_, saya menikmati prosesnya: menyusun, memperbaiki, dan membuat sesuatu terasa "pas".
 
-Saya menyenangi segelas kopi, sambil eksplor ide-ide kecil, atau sekadar mencoba hal baru tanpa tujuan yang terlalu besar dan mungkin tidak akan pernah selesai.
+Hal lain yang tak kalah menyenangkan adalah segelas kopi, sambil eksplor ide-ide kecil, atau sekadar mencoba hal baru tanpa tujuan yang terlalu besar dan mungkin tidak akan pernah selesai.
 
 Saya pernah terlibat dalam sebuah proyek besar yang tidak berjalan seperti yang diharapkan. Tapi mungkin memang begitu cara belajar bekerja: tidak selalu lurus, tidak selalu cepat, dan tidak selalu bisa dipahami.
 
