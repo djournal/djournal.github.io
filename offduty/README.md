@@ -2,6 +2,8 @@
 
 ...setelah jam kerja selesai.
 
+![WhatsApp Image 2026-04-22 at 16.44.50](https://hackmd.io/_uploads/rJxRKBITZl.jpg)
+
 Setelah seluruh tugas kantor usai, ada ruang yang perlahan terbuka—ruang yang tidak lagi diisi oleh target, _deadline_, atau prioritas tim. Di saat seperti ini, pekerjaan tidak benar-benar berhenti, hanya berganti bentuk. Dari sesuatu yang terstruktur menjadi sesuatu yang lebih bebas dan kadang tidak punya tujuan yang jelas.
 
 Di halaman ini, saya menamai semuanya sebagai eksperimen. Tidak ada standar keberhasilan yang kaku, tidak ada ekspektasi harus jadi produk. Kadang hanya mencoba ide kecil yang sempat lewat di kepala saat jam kerja, kadang sekadar membongkar cara kerja sesuatu yang selama ini dipakai tanpa dipahami.
