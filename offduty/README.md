@@ -2,7 +2,7 @@
 
 ...setelah jam kerja selesai.
 
-![WhatsApp Image 2026-04-22 at 16.44.50](https://hackmd.io/_uploads/rJxRKBITZl.jpg)
+![WhatsApp Image 2026-04-22 at 16.44.50](https://hackmd.io/_uploads/SJZljBL6bg.jpg)
 
 Setelah seluruh tugas kantor usai, ada ruang yang perlahan terbuka—ruang yang tidak lagi diisi oleh target, _deadline_, atau prioritas tim. Di saat seperti ini, pekerjaan tidak benar-benar berhenti, hanya berganti bentuk. Dari sesuatu yang terstruktur menjadi sesuatu yang lebih bebas dan kadang tidak punya tujuan yang jelas.
 
