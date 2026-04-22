@@ -77,9 +77,13 @@ function generateFile(year, week) {
 
   const content = `# W${week}, ${year}
 
-<div class="week-meta">
-📅 ${range}
-</div>
+<span class="week-meta">${range}</span>
+
+## 💡 Rencana
+
+## 🚧 Pekerjaan
+
+## ✏️ Catatan
 `;
 
   writeFileIfMissing(filePath, content);
