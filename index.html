@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -37,12 +37,135 @@
       .Main {
         min-height: 100vh;
       }
+      .custom-sidebar-header {
+        font-size: 12px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        padding: 12px 16px 6px;
+        color: rgba(255, 255, 255, 0.5); /* adjust sesuai theme */
+      }
+      .page-content blockquote {
+        background: var(--header-background);
+        border-left: 8px solid var(--accent-color);
+        margin: 20px 0;
+        padding: 14px 16px;
+        color: var(--text-color);
+      }
+      .week-meta {
+        background: var(--header-background);
+        border-left: 4px solid var(--accent-color);
+        padding: 10px 14px;
+        margin: 12px 0;
+        color: var(--text-color);
+        border-radius: 6px;
+        font-size: 14px;
+      }
     </style>
   </head>
   <body>
     <div id="docute"></div>
     <script src="/assets/docute.js"></script>
     <script>
+      function injectSidebarHeader() {
+        const sidebar = document.querySelector(".Sidebar");
+        const items = document.querySelector(".SidebarItems");
+
+        if (!sidebar || !items) return;
+        if (sidebar.querySelector(".custom-sidebar-header")) return;
+
+        const el = document.createElement("div");
+        el.className = "custom-sidebar-header";
+        el.innerText = "Office Hours";
+
+        sidebar.insertBefore(el, items);
+      }
+
+      function getISOWeek(date = new Date()) {
+        const tmp = new Date(date.getTime());
+        tmp.setHours(0, 0, 0, 0);
+
+        // Thursday trick (ISO standard)
+        tmp.setDate(tmp.getDate() + 3 - ((tmp.getDay() + 6) % 7));
+
+        const week1 = new Date(tmp.getFullYear(), 0, 4);
+
+        return (
+          1 +
+          Math.round(
+            ((tmp - week1) / 86400000 - 3 + ((week1.getDay() + 6) % 7)) / 7,
+          )
+        );
+      }
+
+      function padWeek(week) {
+        return String(week).padStart(2, "0");
+      }
+
+      function generateWeeks(year, startWeek, endWeek) {
+        const weeks = [];
+
+        for (let w = endWeek; w >= startWeek; w--) {
+          weeks.push({
+            title: "w" + String(w),
+            link: `/office/${year}/w${padWeek(w)}`,
+          });
+        }
+
+        return weeks;
+      }
+
+      function buildSidebar() {
+        const now = new Date();
+        const currentYear = now.getFullYear();
+        const currentWeek = getISOWeek(now);
+
+        const startYear = 2025;
+        const startWeek = 43;
+
+        const sidebar = [];
+
+        for (let year = currentYear; year >= startYear; year--) {
+          let from = 1;
+          let to = 52;
+
+          if (year === currentYear) {
+            to = currentWeek;
+          }
+
+          if (year === startYear) {
+            from = startWeek;
+          }
+
+          sidebar.push({
+            title: String(year),
+            children: generateWeeks(year, from, to),
+            collapsed: year !== currentYear,
+          });
+        }
+
+        return sidebar;
+      }
+
+      function collapseOldYears() {
+        const items = document.querySelectorAll(".SidebarItems > .SidebarItem");
+
+        console.log("items", items);
+
+        items.forEach((item, index) => {
+          if (index === 0) return; // keep first open
+
+          const title = item.querySelector(".ItemTitle");
+          const arrow = item.querySelector(".arrow");
+
+          if (!title || !arrow) return;
+
+          if (arrow.classList.contains("open")) {
+            title.click();
+          }
+        });
+      }
+
       const THEME = {
         light: {
           "--page-background": "#f4f6fa",
@@ -192,29 +315,19 @@
             }, 300);
           },
         },
-        nav: [{ title: "About", link: "/about" }],
-        sidebar: [
-          {
-            title: "Office Hours",
-            children: [
-              {
-                title: "2026",
-                link: "/office/2026/",
-              },
-              {
-                title: "2025",
-                link: "/office/2025/",
-              },
-            ],
-          },
+        nav: [
           {
             title: "After Hours",
             link: "/offduty/",
           },
+          {
+            title: "About",
+            link: "/about",
+          },
         ],
+        sidebar: buildSidebar(),
       });
 
-      // ✅ WAIT until Docute injects style
       const waitForStyle = setInterval(() => {
         const target = document.getElementById("docute-inserted-style");
 
@@ -236,6 +349,26 @@
           subtree: true,
         });
       }, 50);
+
+      let running = false;
+
+      function initHack() {
+        if (running) return;
+        running = true;
+
+        requestAnimationFrame(() => {
+          setTimeout(() => {
+            injectSidebarHeader();
+            collapseOldYears();
+            running = false;
+          }, 0);
+        });
+      }
+
+      window.addEventListener("popstate", initHack);
+      window.addEventListener("hashchange", initHack);
+
+      initHack();
     </script>
   </body>
 </html>

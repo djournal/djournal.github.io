@@ -1,4 +1,6 @@
-# About
+# Perihal
+
+_'Ala kulli haal_
 
 Saya seorang _programmer_ yang menghabiskan banyak waktu di depan layar untuk menulis kode, merapikan logika, dan sesekali bertanya-tanya kenapa sesuatu yang terlihat sederhana bisa jadi rumit.
 
