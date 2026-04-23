@@ -83,7 +83,7 @@ function generateFile(year, week) {
 
 ## 🚧 Pekerjaan
 
-## ✏️ Catatan
+## 📒 Catatan
 `;
 
   writeFileIfMissing(filePath, content);
