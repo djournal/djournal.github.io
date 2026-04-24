@@ -2,6 +2,8 @@
 
 _'Ala kulli haal_
 
+![perihal](https://hackmd.io/_uploads/r1Ib6KOpZx.jpg)
+
 Saya seorang _programmer_ yang menghabiskan banyak waktu di depan layar untuk menulis kode, merapikan logika, dan sesekali bertanya-tanya kenapa sesuatu yang terlihat sederhana bisa jadi tanda tanya.
 
 Sehari-hari saya bekerja dengan JavaScript, Node, dan Python. Tapi lebih dari sekadar _tools_, saya menikmati prosesnya: menyusun, memperbaiki, dan membuat sesuatu terasa "pas".
