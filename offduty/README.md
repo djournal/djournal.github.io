@@ -18,9 +18,9 @@ Bekerja sebagai programmer, saya mengawalinya dengan beberapa aplikasi teks edit
 
 Dengan ketersediaan _plugin_ yang lebih dari cukup, transisi dari Atom ke VS Code terasa sangat lancar. Menariknya, beberapa tahun kemudian, khususnya saat era AI makin menggema, muncul turunan VS Code seperti Cursor, Trae, Antigraviti, Kiro, dan mungkin masih ada beberapa lagi lainnya. Perpindahan dari VS Code ke aplikasi-aplikasi turunan tersebut bisa dikatakan hampir _zero learning curve_.
 
-Kondisi tersebut lantas memunculkan gagasan untuk membangun _tools_ dalam bentuk _plugin_. Contoh _tools_ yang paling sederhana adalah konverter XML ke JSON dengan _core library_ Objtree dari Kawa.net. Dari banyak _library_ yang modern saya menggunakan _oldschool library_ itu untuk menjaga _compatibility_ sistem yang sudah ada. Salah satu _core library_ tanpa ada urgensi untuk mengganti atau memperbarui.
+Kondisi tersebut lantas memunculkan gagasan untuk membangun _tools_ dalam bentuk _plugin_. Contoh _tools_ yang paling sederhana adalah konverter XML ke JSON dengan _core library_ Objtree dari Kawa.net. Dari banyak _library_ modern, saya menggunakan _oldschool library_ itu untuk menjaga _compatibility_ sistem yang sudah ada. Salah satu _core library_ tanpa urgensi untuk mengganti atau memperbarui.
 
-Tentu konverter XML ke JSON bukanlah _goal_ yang ingin dicapai. Masih ada proses pengembangan lanjutan agar _plugin_ dapat menjadi solusi sebagai media untuk menggambar HMI. Konverter ini hanyalah _minimum viable product_ untuk saya ajukan sebelum akhirnya benar-benar diproduksi.
+Tentu konverter XML ke JSON bukanlah _goal_ yang ingin dicapai. Masih ada proses pengembangan lanjutan agar _plugin_ dapat menjadi solusi atas kendala saat menggambar HMI dengan XML. Konverter ini hanyalah _minimum viable product_ untuk saya ajukan sebelum proses produksi, andai disetujui.
 
 Panduan singkat untuk membuat _plugin_ VS Code bisa dilihat di halaman repo [Visual Studio Code extension generator](https://github.com/microsoft/vscode-generator-code). Bila tidak ada prasyarat versi minimal VS Code, gunakan `"vscode": "^1.80.0"` untuk memastikan _plugin_ berjalan pada versi _development_. Bagi saya, ini adalah 'halang rintang' perdana.
 
