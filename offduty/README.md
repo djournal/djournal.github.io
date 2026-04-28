@@ -12,7 +12,7 @@ Dan mungkin, dari kebiasaan “setelah listrik dimatikan” inilah hal-hal yang 
 
 ## VS Code Plugin
 
-<img src="https://hackmd.io/_uploads/HyEfa0aT-g.png" alt="VS Code Plugin" style="float: left; margin-right: 24px; margin-bottom: 12px; width: 150px;" />
+<img src="https://hackmd.io/_uploads/Hkrt9k0pZl.jpg" alt="VS Code Plugin" style="float: left; margin-right: 24px; margin-bottom: 12px; width: 150px;" />
 
 Bekerja sebagai programmer, saya mengawalinya dengan beberapa aplikasi teks editor, sebut saja Notepad++, Sublime, dan Macromedia Dreamweaver. Saya tidak ingat persis mana yang paling awal. Lantas kemudian tahun-tahun berlalu, muncul Atom teks editor andalan, sebelum akhirnya dimatikan oleh Microsoft dan diganti dengan VS Code.
 
