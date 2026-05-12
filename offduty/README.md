@@ -12,7 +12,7 @@ Dan mungkin, dari kebiasaan “setelah listrik dimatikan” inilah hal-hal yang 
 
 ## VS Code Plugin
 
-<img src="https://hackmd.io/_uploads/Hkrt9k0pZl.jpg" alt="VS Code Plugin" style="float: left; margin-right: 24px; margin-bottom: 12px; width: 150px;" />
+<img src="https://hackmd.io/_uploads/Hkrt9k0pZl.jpg" alt="VS Code Plugin" style="float: left; margin: 6px 24px 12px 0; width: 150px;" />
 
 Bekerja sebagai programmer, saya mengawalinya dengan beberapa aplikasi teks editor, sebut saja Notepad++, Sublime, dan Macromedia Dreamweaver. Saya tidak ingat persis mana yang paling awal. Lantas kemudian tahun-tahun berlalu, muncul Atom teks editor andalan, sebelum akhirnya dimatikan oleh Microsoft dan diganti dengan VS Code.
 
@@ -30,7 +30,7 @@ Dari satu gagasan bergulir ke gagasan yang lain, bahkan lebih besar. Gagasan lai
 
 ## Kaos Kenangan
 
-<img src="https://hackmd.io/_uploads/SyH9_neyGx.jpg" alt="Kaos Kenangan" style="float: left; margin-right: 24px; margin-bottom: 12px; width: 150px;" />
+<img src="https://hackmd.io/_uploads/SyH9_neyGx.jpg" alt="Kaos Kenangan" style="float: left; margin: 6px 24px 12px 0; width: 150px;" />
 
 Beberapa waktu lalu adalah hari jadi pernikahan saya dan istri. Tiba-tiba muncul sebuah keinginan kecil di kepala saya: membuat sebuah kaos kenangan. Bukan tentang tanggal kami menikah, melainkan tentang hari yang jauh lebih sederhana—hari pertama kami bertemu.
 
