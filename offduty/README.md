@@ -30,11 +30,13 @@ Dari satu gagasan bergulir ke gagasan yang lain, bahkan lebih besar. Gagasan lai
 
 ## Kaos Kenangan
 
+<img src="https://hackmd.io/_uploads/SyH9_neyGx.jpg" alt="Kaos Kenangan" style="float: left; margin-right: 24px; margin-bottom: 12px; width: 150px;" />
+
 Beberapa waktu lalu adalah hari jadi pernikahan saya dan istri. Tiba-tiba muncul sebuah keinginan kecil di kepala saya: membuat sebuah kaos kenangan. Bukan tentang tanggal kami menikah, melainkan tentang hari yang jauh lebih sederhana—hari pertama kami bertemu.
 
 Hari ketika untuk pertama kalinya kami saling menatap, saling menyapa, dan tanpa kami sadari, hidup kami perlahan mulai berubah.
 
-Masalahnya, saya benar-benar tidak ingat kapan tepatnya momen itu terjadi. Yang saya ingat hanya satu: kami pernah sengaja membuat janji untuk bertemu di sebuah acara bernama Kumkum 2010, di Museum Bank Mandiri. Saat itu, istri saya sedang membantu temannya menjaga sebuah stan kecil yang menjual sapu tangan bergambar peta Transjakarta.
+Masalahnya, saya benar-benar tidak ingat kapan tepatnya momen itu terjadi. Yang saya ingat hanya satu: kami pernah sengaja membuat janji untuk bertemu di sebuah acara bernama Kumkum, di Museum Bank Mandiri. Saat itu, istri saya sedang membantu temannya menjaga sebuah stan kecil yang menjual sapu tangan bergambar peta Transjakarta.
 
 Berbekal rasa penasaran dan sedikit nostalgia, saya mulai mencarinya di internet. Saya membuka berbagai arsip lama sampai akhirnya menemukan [sebuah tulisan](https://titiw.com/kumkum-2010-yang-super-hijau) yang mengulas acara tersebut. Dan di antara foto-foto yang ada, saya menemukan sesuatu yang membuat saya tersenyum sendiri—sepotong gambar lengan istri saya yang tertangkap kamera secara tidak sengaja.
 
@@ -46,11 +48,11 @@ Dan akhirnya, setelah bertahun-tahun, saya tahu kapan pertama kali kami bertemu.
 
 Saya lalu mencetak momen itu menjadi sebuah kaos. Ada gambar istri saya di sana, lengkap dengan cerita singkat tentang bagaimana semuanya dimulai. Tentang seorang laki-laki yang datang ke sebuah acara hanya untuk bertemu seseorang yang saat itu belum ia mengerti sepenuhnya—namun entah bagaimana, hatinya sudah memilih.
 
-_This picture isn't mine, but that moment was._
-_I came to that place for one simple reason: to finally meet you._
-_From messages on screen to real life._
-_Back then, I didn't know your story, didn't know your world._
-_But when I saw you, something in me quietly chose you._
+> _This picture isn't mine, but that moment was._<br/>
+> _I came to that place for one simple reason: to finally meet you._<br/>
+> _From messages on screen to real life._<br/>
+> _Back then, I didn't know your story, didn't know your world._<br/>
+> _But when I saw you, something in me quietly chose you._
 
 Dan mungkin, cinta memang sering dimulai dengan cara sesederhana itu:
 sebuah pertemuan biasa, di hari yang tampak biasa, yang ternyata menjadi awal dari seluruh hidup kita.
