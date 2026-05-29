@@ -28,9 +28,49 @@ Dari satu gagasan bergulir ke gagasan yang lain, bahkan lebih besar. Gagasan lai
 
 (28 April 2026)
 
-## Kaos Kenangan
+## Potret Kamu, Awal Kita Bertemu
 
 <img src="https://hackmd.io/_uploads/SyH9_neyGx.jpg" alt="Kaos Kenangan" style="float: left; margin: 6px 24px 12px 0; width: 150px;" />
+
+Beberapa waktu lalu adalah hari jadi pernikahan saya dan istri saya.
+Di hari itu, tiba-tiba muncul sebuah keinginan kecil di kepala saya: membuat sebuah kaos kenangan.
+
+Bukan tentang hari kami menikah.
+Melainkan tentang hari yang jauh lebih sederhana—hari pertama kami bertemu.
+
+Hari ketika untuk pertama kalinya kami saling menatap, saling menyapa, lalu tanpa kami sadari, hidup kami perlahan mulai berubah arah.
+
+Saya tidak ingat momen itu terjadi.
+Yang saya ingat hanya satu: kami pernah sengaja membuat janji untuk bertemu di sebuah acara bernama Kumkum, di Museum Bank Mandiri.
+
+Berbekal rasa penasaran dan sedikit rindu pada masa itu, saya mulai mencarinya di internet.
+Saya membuka arsip demi arsip lama, sampai akhirnya menemukan sebuah tulisan
+yang mengulas acara tersebut.
+
+Dan di antara foto-foto yang ada, saya menemukan sesuatu yang membuat saya tersenyum cukup lama—sepotong gambar lengan istri saya yang tertangkap kamera secara tidak sengaja.
+
+Foto itu sederhana.
+Mungkin tidak berarti apa-apa bagi orang lain.
+
+Namun bagi saya, itu adalah jejak kecil dari hari yang diam-diam mengubah seluruh hidup saya.
+
+Tentang seorang laki-laki yang datang ke sebuah acara hanya untuk bertemu seseorang yang saat itu belum sepenuhnya ia mengerti—namun entah bagaimana, hatinya sudah lebih dulu memilih.
+
+This picture isn't mine, but that moment was.
+I came to that place for one simple reason: to finally meet you.
+From messages on screen to real life.
+Back then, I didn't know your story, didn't know your world.
+But the moment I saw you, something inside me quietly chose you.
+
+Dan mungkin, cinta memang sering datang dengan cara sesederhana itu:
+
+sebuah pertemuan biasa,
+di hari yang tampak biasa,
+yang diam-diam menjadi awal dari seluruh hidup kita.
+
+(12 Mei 2026)
+
+---
 
 Beberapa waktu lalu adalah hari jadi pernikahan saya dan istri. Tiba-tiba muncul sebuah keinginan kecil di kepala saya: membuat sebuah kaos kenangan. Bukan tentang tanggal kami menikah, melainkan tentang hari yang jauh lebih sederhana—hari pertama kami bertemu.
 
