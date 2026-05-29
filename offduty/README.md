@@ -32,7 +32,7 @@ Dari satu gagasan bergulir ke gagasan yang lain, bahkan lebih besar. Gagasan lai
 
 <img src="https://hackmd.io/_uploads/SyH9_neyGx.jpg" alt="Kaos Kenangan" style="float: left; margin: 6px 24px 12px 0; width: 150px;" />
 
-Beberapa waktu lalu adalah hari jadi pernikahan saya dan istri saya.
+<!-- Beberapa waktu lalu adalah hari jadi pernikahan saya dan istri saya.
 Di hari itu, tiba-tiba muncul sebuah keinginan kecil di kepala saya: membuat sebuah kaos kenangan.
 
 Bukan tentang hari kami menikah.
@@ -97,4 +97,4 @@ Saya lalu mencetak momen itu menjadi sebuah kaos. Ada gambar istri saya di sana,
 Dan mungkin, cinta memang sering dimulai dengan cara sesederhana itu:
 sebuah pertemuan biasa, di hari yang tampak biasa, yang ternyata menjadi awal dari seluruh hidup kita.
 
-(12 Mei 2026)
+(12 Mei 2026) -->
