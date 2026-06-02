@@ -24,3 +24,4 @@
   - Dishub (Downloader).
   - Admin Monita.
 - Gagasan: PoC Monita alarm native mobile app.
+  - Native app dengan native-script (high level).
