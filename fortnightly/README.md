@@ -13,5 +13,11 @@
 
 ## Lain-lain
 
+- Tambah menu "Archive" pada aplikasi downloader.
 - HMI Pelindo OK: Buat 2 halaman.
+- Taiga:
+  - Alarm Monita.
+  - HMI Tanjung Emas.
+  - Dishub/Distribution HUb (Downloader).
+  - Admin Monita.
 - Gagasan: PoC Monita alarm native mobile app.
