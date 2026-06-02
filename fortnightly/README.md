@@ -19,6 +19,8 @@
 - Taiga:
   - Alarm Monita.
   - HMI Tanjung Emas.
-  - Dishub/Distribution HUb (Downloader).
+  - Mockup Monita Marine.
+  - Vismon Android App.
+  - Dishub (Downloader).
   - Admin Monita.
 - Gagasan: PoC Monita alarm native mobile app.
