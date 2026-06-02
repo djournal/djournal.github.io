@@ -14,6 +14,7 @@
 ## Lain-lain
 
 - Tambah menu "Archive" pada aplikasi downloader.
+  - Memindahkan SofHaliza lama ke kategori ini.
 - HMI Pelindo OK: Buat 2 halaman.
 - Taiga:
   - Alarm Monita.
