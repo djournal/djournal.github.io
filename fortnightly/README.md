@@ -12,7 +12,7 @@
 - Detil halaman alarm/notifikasi.
 - Menambah widget alarm/notifikasi pada sidebar.
 - Memastikan aplikasi jalan dengan IP address.
-- Android app version 7 (5.13.0)
+- Android app version `7 (5.13.0)` sebelumnya `6 (5.10.0)`.
   - Alarm notification.
 
 ### Lain-lain
