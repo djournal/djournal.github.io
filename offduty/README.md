@@ -28,7 +28,7 @@ Dari satu gagasan bergulir ke gagasan yang lain, bahkan lebih besar. Gagasan lai
 
 (28 April 2026)
 
-## Potret Dia, Awal Kami Bertemu
+## Potret Dia dan Awal Kami Bertemu
 
 <img src="https://hackmd.io/_uploads/SyH9_neyGx.jpg" alt="Kaos Kenangan" style="float: left; margin: 6px 24px 12px 0; width: 150px;" />
 
