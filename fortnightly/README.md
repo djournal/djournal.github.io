@@ -16,6 +16,9 @@
 - Tambah menu "Archive" pada aplikasi downloader.
   - Memindahkan SofHaliza lama ke kategori ini.
 - HMI Pelindo OK: Buat 2 halaman.
+- Manual Monita:
+  - Link & changelog Visual Monita
+  - Link & changelog Admin Monita
 - Taiga:
   - Alarm Monita.
   - HMI Tanjung Emas.
