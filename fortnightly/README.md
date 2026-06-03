@@ -1,6 +1,6 @@
 # Fortnightly Progress Report
 
-## Rapat Mendatang
+## 📅
 
 ### Admin Monita
 
@@ -19,8 +19,8 @@
   - Memindahkan SofHaliza lama ke kategori ini.
 - HMI Pelindo OK: Buat 2 halaman.
 - Manual Monita:
-  - Link & changelog Visual Monita
-  - Link & changelog Admin Monita
+  - Link download & changelog Visual Monita
+  - Link download & changelog Admin Monita
 - Taiga:
   - Alarm Monita.
   - HMI Tanjung Emas.
