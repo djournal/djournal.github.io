@@ -1,6 +1,6 @@
 # Fortnightly Progress Report
 
-## 📅
+## 2026-06-04
 
 ### Admin Monita
 
@@ -17,6 +17,8 @@
 
 ### Lain-lain
 
+- Request API
+  - Endpoint untuk table `user_devices`.
 - Tambah menu "Archive" pada aplikasi downloader.
   - Memindahkan SofHaliza lama ke kategori ini.
 - HMI Pelindo OK: Buat 2 halaman.
@@ -31,7 +33,7 @@
   - Dishub (Downloader).
   - Admin Monita.
 - Gagasan: PoC Monita alarm native mobile app.
-  - Native app dengan native-script (high level).
+  - Native app dengan native-script atau lynx.
 
 ## 2026-05-21
 
