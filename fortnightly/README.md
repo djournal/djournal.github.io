@@ -1,11 +1,26 @@
 # Fortnightly Progress Report
 
+## NEXT
+
+### Admin Monita
+
+- Mengubah tampilan dashboard.
+
+### Visual Monita
+
+- Menambah jumlah alarm un-ack-ed pada sidebar.
+
+### Lain-lain
+
+- .
+
 ## 2026-06-04
 
 ### Admin Monita
 
 - Detil halaman alarm/notifikasi.
 - Memastikan aplikasi jalan dengan IP address.
+- Mengubah kondisi active/stale device pada dashboard.
 
 ### Visual Monita
 
