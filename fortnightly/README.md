@@ -1,6 +1,6 @@
 # Fortnightly Progress Report
 
-## NEXT
+## 📅 NEXT
 
 ### Admin Monita
 
@@ -14,7 +14,7 @@
 
 - .
 
-## 2026-06-04
+## 📅 2026-06-04
 
 ### Admin Monita
 
@@ -50,7 +50,7 @@
 - Gagasan: PoC Monita alarm native mobile app.
   - Native app dengan native-script atau lynx.
 
-## 2026-05-21
+## 📅 2026-05-21
 
 ### Admin Monita
 
