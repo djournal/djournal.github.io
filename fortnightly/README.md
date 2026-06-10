@@ -5,20 +5,50 @@
 ### Admin Monita
 
 - Mengubah tampilan dashboard.
-- Memperbaiki fungsi auto-refresh pada alarm:
-  - Alarm page
+  - Perubahan:
+    - Info jumlah perangkat.
+    - Info jumlah perangkat aktif.
+    - Info jumlah perangkat tidak aktif.
+    - Separasi list perangkat aktif dan tidak aktif.
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/13?kanban-status=314
+- Ganti sumber data dan click action alarm.
+  - Motivasi: Terkait perubahan struktur payload pada backend.
+  - Ref: https://development.daunbiru.com/project/alarm/us/14?kanban-status=298
+- Memperbaiki fungsi auto-refresh pada fitur alarm:
+  - Motivasi:
+    - Data alarm belum menggunakan WS/SSE.
+    - Efisiensi resource untuk looping fetch data.
+  - Target:
+    - Alarm page.
 
 ### Visual Monita
 
 - Menambah jumlah alarm un-ack-ed pada sidebar.
-- Memperbaiki fungsi auto-refresh pada alarm:
-  - Alarm page
-  - Sidebar widget
-  - Navbar icon
+  - Ref: https://development.daunbiru.com/project/alarm/us/8?kanban-status=302
+- Ganti sumber data dan click action alarm.
+  - Motivasi: Terkait perubahan struktur payload pada backend.
+  - Ref: https://development.daunbiru.com/project/alarm/us/15?kanban-status=302
+- Memperbaiki fungsi auto-refresh pada fitur alarm:
+  - Motivasi:
+    - Data alarm belum menggunakan WS/SSE.
+    - Efisiensi resource untuk looping fetch data.
+  - Target:
+    - Alarm page.
+    - Sidebar widget.
+    - Navbar icon.
 
 ### Lain-lain
 
-- .
+- Mengubah payload pesan pada backend.
+  - Motivasi: Formatting pesan dan datetime spesifik gadget user.
+  - Ref: https://development.daunbiru.com/project/alarm/us/13?kanban-status=302
+- Ganti sumber data dan click action alarm Visual Monita App (Debug).
+  - Motivasi: Terkait perubahan struktur payload pada backend.
+  - Ref: https://development.daunbiru.com/project/alarm/us/16?kanban-status=302
+
+### P.S.
+
+- Perbandingan cara backend mengiriman pesan.
 
 ## 📅 2026-06-04
 
