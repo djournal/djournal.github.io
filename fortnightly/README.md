@@ -4,6 +4,11 @@
 
 ### Admin Monita
 
+- Menambah halaman users' gadgets.
+  - Konteks: List gadget yang menerima notifikasi.
+  - Disclaimer: Proses revoke notifikasi tidak menghapus user's session.
+  - Diskusi: Kalau perlu auto-logout, maka perlu API endpoint: GET {{HOST}}/user/device/\<hardware_id\>
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/14?kanban-status=314
 - Mengubah tampilan dashboard.
   - Perubahan:
     - Info jumlah perangkat.
