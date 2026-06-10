@@ -5,10 +5,16 @@
 ### Admin Monita
 
 - Mengubah tampilan dashboard.
+- Memperbaiki fungsi auto-refresh pada alarm:
+  - Alarm page
 
 ### Visual Monita
 
 - Menambah jumlah alarm un-ack-ed pada sidebar.
+- Memperbaiki fungsi auto-refresh pada alarm:
+  - Alarm page
+  - Sidebar widget
+  - Navbar icon
 
 ### Lain-lain
 
