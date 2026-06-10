@@ -7,7 +7,7 @@
 - Menambah halaman users' gadgets.
   - Konteks: List gadget yang menerima notifikasi.
   - Disclaimer: Proses revoke notifikasi tidak menghapus user's session.
-  - Diskusi: Kalau perlu auto-logout, maka perlu API endpoint: GET {{HOST}}/user/device/hardware_id
+  - Diskusi: Kalau perlu auto-logout, maka perlu API endpoint: `GET HOST/user/device/<hardware_id>`
   - Ref: https://development.daunbiru.com/project/admin-monita/us/14?kanban-status=314
 - Mengubah tampilan dashboard.
   - Perubahan:
@@ -50,10 +50,6 @@
 - Ganti sumber data dan click action alarm Visual Monita App (Debug).
   - Motivasi: Terkait perubahan struktur payload pada backend.
   - Ref: https://development.daunbiru.com/project/alarm/us/16?kanban-status=302
-
-### P.S.
-
-- Perbandingan cara backend mengiriman pesan.
 
 ## 📅 2026-06-04
 
