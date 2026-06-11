@@ -33,6 +33,9 @@
 - Ganti sumber data dan click action alarm.
   - Motivasi: Terkait perubahan struktur payload pada backend.
   - Ref: https://development.daunbiru.com/project/alarm/us/15?kanban-status=302
+- Update props pada HMI komponen `input`.
+  - Motivasi: Mengirim data dari HMI langsung ke loket.
+  - Ref: https://development.daunbiru.com/project/visual-monita/us/1?kanban-status=337
 - Memperbaiki fungsi auto-refresh pada fitur alarm:
   - Motivasi:
     - Data alarm belum menggunakan WS/SSE.
@@ -50,6 +53,8 @@
 - Ganti sumber data dan click action alarm Visual Monita App (Debug).
   - Motivasi: Terkait perubahan struktur payload pada backend.
   - Ref: https://development.daunbiru.com/project/alarm/us/16?kanban-status=302
+- Update info komponen `input` pada manual monita:
+  - Ref: https://development.daunbiru.com/project/manual-monita/us/1?kanban-status=343
 
 ## 📅 2026-06-04
 
