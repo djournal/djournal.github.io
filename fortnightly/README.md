@@ -19,12 +19,15 @@
 - Ganti sumber data dan click action alarm.
   - Motivasi: Terkait perubahan struktur payload pada backend.
   - Ref: https://development.daunbiru.com/project/alarm/us/14?kanban-status=298
-  <!-- - Memperbaiki fungsi auto-refresh pada fitur alarm:
-  - Motivasi:
-    - Data alarm belum menggunakan WS/SSE.
-    - Efisiensi resource untuk looping fetch data.
-  - Target:
-    - Alarm page. -->
+
+<!--
+- Memperbaiki fungsi auto-refresh pada fitur alarm:
+- Motivasi:
+  - Data alarm belum menggunakan WS/SSE.
+  - Efisiensi resource untuk looping fetch data.
+- Target:
+  - Alarm page.
+-->
 
 ### Visual Monita
 
@@ -38,14 +41,17 @@
   - Ref: https://development.daunbiru.com/project/visual-monita/us/1?kanban-status=337
 - Tambah info server pada halaman login (pojok kiri atas).
   - Ref: https://development.daunbiru.com/project/visual-monita/us/3?kanban-status=337
-  <!-- - Memperbaiki fungsi auto-refresh pada fitur alarm:
-  - Motivasi:
-    - Data alarm belum menggunakan WS/SSE.
-    - Efisiensi resource untuk looping fetch data.
-  - Target:
-    - Alarm page.
-    - Sidebar widget.
-    - Navbar icon. -->
+
+<!--
+- Memperbaiki fungsi auto-refresh pada fitur alarm:
+- Motivasi:
+  - Data alarm belum menggunakan WS/SSE.
+  - Efisiensi resource untuk looping fetch data.
+- Target:
+  - Alarm page.
+  - Sidebar widget.
+  - Navbar icon.
+-->
 
 ### Lain-lain
 
