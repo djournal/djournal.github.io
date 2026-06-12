@@ -1,6 +1,6 @@
 # Fortnightly Progress Report
 
-## 📅 NEXT
+## 📅 2026-06-12
 
 ### Admin Monita
 
