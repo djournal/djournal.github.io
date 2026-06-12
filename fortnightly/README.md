@@ -36,7 +36,8 @@
 - Update props pada HMI komponen `input`.
   - Motivasi: Mengirim data dari HMI langsung ke loket.
   - Ref: https://development.daunbiru.com/project/visual-monita/us/1?kanban-status=337
-- Tambah info server pada halaman login.
+- Tambah info server pada halaman login (pojok kiri atas).
+  - Ref: https://development.daunbiru.com/project/visual-monita/us/3?kanban-status=337
   <!-- - Memperbaiki fungsi auto-refresh pada fitur alarm:
   - Motivasi:
     - Data alarm belum menggunakan WS/SSE.
