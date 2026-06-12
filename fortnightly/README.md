@@ -19,12 +19,12 @@
 - Ganti sumber data dan click action alarm.
   - Motivasi: Terkait perubahan struktur payload pada backend.
   - Ref: https://development.daunbiru.com/project/alarm/us/14?kanban-status=298
-- Memperbaiki fungsi auto-refresh pada fitur alarm:
+  <!-- - Memperbaiki fungsi auto-refresh pada fitur alarm:
   - Motivasi:
     - Data alarm belum menggunakan WS/SSE.
     - Efisiensi resource untuk looping fetch data.
   - Target:
-    - Alarm page.
+    - Alarm page. -->
 
 ### Visual Monita
 
@@ -36,14 +36,15 @@
 - Update props pada HMI komponen `input`.
   - Motivasi: Mengirim data dari HMI langsung ke loket.
   - Ref: https://development.daunbiru.com/project/visual-monita/us/1?kanban-status=337
-- Memperbaiki fungsi auto-refresh pada fitur alarm:
+- Tambah info server pada halaman login.
+  <!-- - Memperbaiki fungsi auto-refresh pada fitur alarm:
   - Motivasi:
     - Data alarm belum menggunakan WS/SSE.
     - Efisiensi resource untuk looping fetch data.
   - Target:
     - Alarm page.
     - Sidebar widget.
-    - Navbar icon.
+    - Navbar icon. -->
 
 ### Lain-lain
 
