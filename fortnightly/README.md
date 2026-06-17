@@ -1,5 +1,46 @@
 # Fortnightly Progress Report
 
+## 📅 NEXT
+
+### Admin Monita
+
+- Memperbaiki fungsi auto-refresh pada fitur alarm:
+  - Motivasi:
+    - Data alarm belum menggunakan WS/SSE.
+    - Efisiensi resource untuk looping fetch data.
+  - Target:
+    - Alarm page.
+- Rilis 1.7.0:
+  - Tambah halaman user's gadget `/#/user/gadget`.
+  - Tambah info `domain:port` pada deviceName.
+  - Unreg service worker saat logout.
+  - Update sumber data push notif dari `.motification` ke `.data`.
+  - Tambah info `Ref. ID` pada halaman detil alarm.
+  - Seragamkan format datetime di semua halaman.
+
+### Visual Monita
+
+- Memperbaiki fungsi auto-refresh pada fitur alarm:
+  - Motivasi:
+    - Data alarm belum menggunakan WS/SSE.
+    - Efisiensi resource untuk looping fetch data.
+  - Target:
+    - Alarm page.
+    - Sidebar widget.
+    - Navbar icon.
+- Rilis 5.14.0:
+  - Tambah prop UI untuk komponent `input` dan `input_date`.
+  - Tambah info `domain:port` pada deviceName.
+  - Unreg service worker saat logout.
+  - Update sumber data push notif dari `.motification` ke `.data`.
+  - Tambah info `Ref. ID` pada halaman alarm.
+
+### Lain-lain
+
+- Rilis Visual Monita app 8 (5.14.0).
+  - Tujuan:
+    - Update sumber data push notif dari `.motification` ke `.data`.
+
 ## 📅 2026-06-12
 
 ### Admin Monita
@@ -20,15 +61,6 @@
   - Motivasi: Terkait perubahan struktur payload pada backend.
   - Ref: https://development.daunbiru.com/project/alarm/us/14?kanban-status=298
 
-<!--
-- Memperbaiki fungsi auto-refresh pada fitur alarm:
-- Motivasi:
-  - Data alarm belum menggunakan WS/SSE.
-  - Efisiensi resource untuk looping fetch data.
-- Target:
-  - Alarm page.
--->
-
 ### Visual Monita
 
 - Menambah jumlah alarm un-ack-ed pada sidebar.
@@ -41,17 +73,6 @@
   - Ref: https://development.daunbiru.com/project/visual-monita/us/1?kanban-status=337
 - Tambah info server pada halaman login (pojok kiri atas).
   - Ref: https://development.daunbiru.com/project/visual-monita/us/3?kanban-status=337
-
-<!--
-- Memperbaiki fungsi auto-refresh pada fitur alarm:
-- Motivasi:
-  - Data alarm belum menggunakan WS/SSE.
-  - Efisiensi resource untuk looping fetch data.
-- Target:
-  - Alarm page.
-  - Sidebar widget.
-  - Navbar icon.
--->
 
 ### Lain-lain
 
