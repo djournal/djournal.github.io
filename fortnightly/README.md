@@ -19,6 +19,7 @@
   - Tambah info `Ref. ID` pada halaman detil alarm.
   - Seragamkan format datetime di semua halaman.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/15?kanban-status=314
+  - Ref: https://manual.monita.co.id/admin/#/?id=_170-2026-06-15
 
 ### Visual Monita
 
@@ -40,6 +41,7 @@
   - Update sumber data push notif dari `.notification` ke `.data`.
   - Tambah info `Ref. ID` pada halaman alarm.
   - Ref: https://development.daunbiru.com/project/visual-monita/us/4?kanban-status=338
+  - Ref: https://manual.monita.co.id/visual/#/?id=_5140-2026-06-17
 
 ### Lain-lain
 
