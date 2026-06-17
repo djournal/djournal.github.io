@@ -15,7 +15,7 @@
   - Tambah halaman user's gadget `/#/user/gadget`.
   - Tambah info `domain:port` pada deviceName.
   - Unreg service worker saat logout.
-  - Update sumber data push notif dari `.motification` ke `.data`.
+  - Update sumber data push notif dari `.notification` ke `.data`.
   - Tambah info `Ref. ID` pada halaman detil alarm.
   - Seragamkan format datetime di semua halaman.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/15?kanban-status=314
@@ -37,14 +37,14 @@
   - Tambah prop UI untuk komponent `input` dan `input_date`.
   - Tambah info `domain:port` pada deviceName.
   - Unreg service worker saat logout.
-  - Update sumber data push notif dari `.motification` ke `.data`.
+  - Update sumber data push notif dari `.notification` ke `.data`.
   - Tambah info `Ref. ID` pada halaman alarm.
   - Ref: https://development.daunbiru.com/project/visual-monita/us/4?kanban-status=338
 
 ### Lain-lain
 
 - Rilis Visual Monita app 8 (5.14.0).
-  - Update sumber data push notif dari `.motification` ke `.data`.
+  - Update sumber data push notif dari `.notification` ke `.data`.
   - Ref: https://development.daunbiru.com/project/vismon-android-app/us/6?kanban-status=326
 
 ## 📅 2026-06-12
