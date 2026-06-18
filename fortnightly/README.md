@@ -22,6 +22,10 @@
   - Ref: https://development.daunbiru.com/project/admin-monita/us/15?kanban-status=314 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/?id=_170-2026-06-15 (Manual)
   - Ref: https://github.com/dbemonita/admin-web-ui/releases/tag/v1.7.0 (Repository)
+- Test tag aset:
+  - Berhasil menyimpan "Tanjung Perak" tapi gagal menyimpan "Tanjung Perunggu".
+  - Error duplikasi tag "tanjung-pe".
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/16?kanban-status=310 (Kanban)
 
 ### Visual Monita
 
