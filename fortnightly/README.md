@@ -19,7 +19,7 @@
 - Rilis 1.8.0:
   - Memungkinkan deploy tanpa domain/sub-domain.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/18?kanban-status=310 (Kanban)
-  - Ref: https://manual.monita.co.id/admin/#/?id=deployment-tanpa-domainsub-domain (Manual)
+  - Ref: https://manual.monita.co.id/admin/#/?id=deployment-tanpa-sub-domain (Manual)
   - Ref: https://github.com/dbemonita/admin-web-ui/tree/v1.8.0 (Repository)
 - Test tag aset:
   - Berhasil menyimpan "Tanjung Perak" tapi gagal menyimpan "Tanjung Perunggu".
