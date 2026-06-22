@@ -5,23 +5,22 @@
 ### Admin Monita
 
 - Memperbaiki fungsi auto-refresh pada fitur alarm:
-  - Motivasi:
-    - Data alarm belum menggunakan WS/SSE.
-    - Efisiensi resource untuk looping fetch data.
-  - Target:
-    - Alarm page.
+  - Motivasi: Data alarm belum menggunakan WS/SSE.
+  - Target: Alarm page.
   - Ref: https://development.daunbiru.com/project/alarm/us/9?kanban-status=302 (Kanban)
 - Rilis 1.7.0:
   - Tambah halaman user's gadget `/#/user/gadget`.
-  - Tambah info `domain:port` pada deviceName.
-  - Unreg service worker saat logout.
   - Update sumber data push notif dari `.notification` ke `.data`.
   - Update route ke halaman detil alarm saat notif diklik/tap.
   - Tambah info `Ref. ID` pada halaman detil alarm.
-  - Seragamkan format datetime di semua halaman.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/15?kanban-status=314 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/?id=_170-2026-06-15 (Manual)
-  - Ref: https://github.com/dbemonita/admin-web-ui/releases/tag/v1.7.0 (Repository)
+  - Ref: https://github.com/dbemonita/admin-web-ui/tree/v1.7.0 (Repository)
+- Rilis 1.8.0:
+  - Memungkinkan deploy tanpa domain/sub-domain.
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/18?kanban-status=310 (Kanban)
+  - Ref: https://manual.monita.co.id/admin/#/?id=deployment-tanpa-domainsub-domain (Manual)
+  - Ref: https://github.com/dbemonita/admin-web-ui/tree/v1.8.0 (Repository)
 - Test tag aset:
   - Berhasil menyimpan "Tanjung Perak" tapi gagal menyimpan "Tanjung Perunggu".
   - Error duplikasi tag "tanjung-pe".
@@ -49,7 +48,7 @@
   - Tambah info `Ref. ID` pada halaman alarm.
   - Ref: https://development.daunbiru.com/project/visual-monita/us/4?kanban-status=338 (Kanban)
   - Ref: https://manual.monita.co.id/visual/#/?id=_5140-2026-06-17 (Manual)
-  - Ref: https://github.com/dbemonita/vismon5/releases/tag/v5.14.0 (Repository)
+  - Ref: https://github.com/dbemonita/vismon5/tree/v5.14.0 (Repository)
 
 ### Lain-lain
 
