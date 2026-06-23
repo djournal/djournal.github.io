@@ -21,6 +21,10 @@
   - Ref: https://development.daunbiru.com/project/admin-monita/us/18?kanban-status=310 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/?id=deployment-tanpa-sub-domain (Manual)
   - Ref: https://github.com/dbemonita/admin-web-ui/tree/v1.8.0 (Repository)
+- Rilis 1.9.0:
+  - Penggantian key localstorage dari `monita_*` menjadi `admin_*`.
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/19?kanban-status=310 (Kanban)
+  - Ref: https://github.com/dbemonita/admin-web-ui/tree/v1.9.0 (Repository)
 - Test tag aset:
   - Berhasil menyimpan "Tanjung Perak" tapi gagal menyimpan "Tanjung Perunggu".
   - Error duplikasi tag "tanjung-pe".
@@ -56,6 +60,12 @@
   - Update sumber data push notif dari `.notification` ke `.data`.
   - Update route ke halaman detil alarm saat notif diklik/tap.
   - Ref: https://development.daunbiru.com/project/vismon-android-app/us/6?kanban-status=326 (Kanban)
+- Penjelasan variabel pada file konfigurasi untuk Admin Monita.
+  - Ref: https://manual.monita.co.id/admin/#/?id=konfigurasi
+- Panduan deployment tanpa domain/sub domain, nginx dan apache2 untuk Admin Monita.
+  - Ref: https://manual.monita.co.id/admin/#/?id=deployment-tanpa-sub-domain
+- Penjelasan variabel pada file konfigurasi untuk Visual Monita.
+  - Ref: https://manual.monita.co.id/visual/#/?id=konfigurasi
 
 ## 📅 2026-06-12
 
