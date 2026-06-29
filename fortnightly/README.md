@@ -24,42 +24,34 @@
   - Berhasil menyimpan "Tanjung Perak" tapi gagal menyimpan "Tanjung Perunggu".
   - Error duplikasi tag "tanjung-pe".
   - Ref: https://development.daunbiru.com/project/admin-monita/us/16?kanban-status=310 (Kanban)
+- Tambah info server pada halaman login (pojok kiri atas).
+  - Ref: https://development.daunbiru.com/project/visual-monita/us/3?kanban-status=337
 
 ### Visual Monita
 
 - Memperbaiki fungsi auto-refresh pada fitur alarm:
-  - Motivasi:
-    - Data alarm belum menggunakan WS/SSE.
-    - Efisiensi resource untuk looping fetch data.
-  - Target:
-    - Alarm page.
-    - Sidebar widget.
-    - Navbar icon.
+  - Motivasi:Data alarm belum menggunakan WS/SSE.
+  - Target: Alarm page, Sidebar widget, Navbar icon.
   - Ref: https://development.daunbiru.com/project/alarm/us/10?kanban-status=302 (Kanban)
+- Tambah info `Ref. ID` pada halaman detil alarm.
 - Tambah prop `allowed_roles` untuk komponen 2 arah.
   - Ref: https://development.daunbiru.com/project/manual-monita/us/2?kanban-status=344 (Kanban)
   - Ref: https://manual.monita.co.id/visual/#/hmi_input?id=properti-selengkapnya (Manual)
-- Tambah info `Ref. ID` pada halaman alarm.
 
 ### Lain-lain
 
-- Rilis Visual Monita app 8 (5.14.0).
-  - Update sumber data push notif dari `.notification` ke `.data`.
-  - Update route ke halaman detil alarm saat notif diklik/tap.
-  - Ref: https://development.daunbiru.com/project/vismon-android-app/us/6?kanban-status=326 (Kanban)
 - Penjelasan variabel pada file konfigurasi untuk Admin Monita.
+  - Ref: https://development.daunbiru.com/project/manual-monita/us/6?kanban-status=344 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/?id=konfigurasi
-- Panduan deployment tanpa domain/sub domain, nginx dan apache2 untuk Admin Monita.
-  - Ref: https://manual.monita.co.id/admin/#/?id=deployment-tanpa-sub-domain
 - Penjelasan variabel pada file konfigurasi untuk Visual Monita.
+  - Ref: https://development.daunbiru.com/project/manual-monita/us/7?kanban-status=344 (Kanban)
   - Ref: https://manual.monita.co.id/visual/#/?id=konfigurasi
+- Panduan deployment tanpa domain/sub domain, nginx dan apache2 untuk Admin Monita.
+  - Ref: https://development.daunbiru.com/project/manual-monita/us/4?kanban-status=344 (Kanban)
+  - Ref: https://manual.monita.co.id/admin/#/?id=deployment-tanpa-sub-domain (Manual)
 - Fitur/halaman Admin Monita.
   - Ref: https://development.daunbiru.com/project/manual-monita/us/5?kanban-status=340 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/feat (Manual)
-- Updater aplikasi Admin Monita dan Visual Monita
-  - Contoh: ./update 1.11.0
-  - Contoh: ./update 5.16.0
-  - Ref:
 
 ## 📅 2026-06-12
 
