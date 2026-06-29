@@ -8,34 +8,18 @@
   - Motivasi: Data alarm belum menggunakan WS/SSE.
   - Target: Alarm page.
   - Ref: https://development.daunbiru.com/project/alarm/us/9?kanban-status=302 (Kanban)
-- Rilis 1.7.0:
-  - Tambah halaman user's gadget `/#/user/gadget`.
-  - Update sumber data push notif dari `.notification` ke `.data`.
-  - Update route ke halaman detil alarm saat notif diklik/tap.
-  - Tambah info `Ref. ID` pada halaman detil alarm.
-  - Ref: https://development.daunbiru.com/project/admin-monita/us/15?kanban-status=314 (Kanban)
-  - Ref: https://manual.monita.co.id/admin/#/?id=_170-2026-06-15 (Manual)
-  - Ref: https://github.com/dbemonita/admin-web-ui/tree/v1.7.0 (Repository)
+- Tambah info `Ref. ID` pada halaman detil alarm.
 - Memungkinkan deploy tanpa domain/sub-domain.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/17?kanban-status=314 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/?id=deployment-tanpa-sub-domain (Manual)
-- Rilis 1.8.0
-  - Ref: https://development.daunbiru.com/project/admin-monita/us/18?kanban-status=314 (Kanban)
-  - Ref: https://manual.monita.co.id/admin/#/?id=_180-2026-06-19 (Manual)
 - Penggantian key localstorage dari `monita_*` menjadi `admin_*`.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/19?kanban-status=314 (Kanban)
-- Rilis 1.9.0
-  - Ref: https://development.daunbiru.com/project/admin-monita/us/20?kanban-status=314 (Kanban)
-  - Ref: https://manual.monita.co.id/admin/#/?id=_190-2026-06-23 (Manual)
 - Single config
   - Ref: https://development.daunbiru.com/project/admin-monita/us/21?kanban-status=314 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/?id=konfigurasi (Manual)
 - Tools updater
   - Ref: https://development.daunbiru.com/project/application-updater/us/5?kanban-status=350 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/?id=update-aplikasi-web (Manual)
-- Rilis 1.10.0
-  - Ref: https://development.daunbiru.com/project/admin-monita/us/22?kanban-status=314 (Kanban)
-  - Ref: https://manual.monita.co.id/admin/#/?id=_1100-2026-06-26 (Manual)
 - Test tag aset:
   - Berhasil menyimpan "Tanjung Perak" tapi gagal menyimpan "Tanjung Perunggu".
   - Error duplikasi tag "tanjung-pe".
@@ -55,21 +39,7 @@
 - Tambah prop `allowed_roles` untuk komponen 2 arah.
   - Ref: https://development.daunbiru.com/project/manual-monita/us/2?kanban-status=344 (Kanban)
   - Ref: https://manual.monita.co.id/visual/#/hmi_input?id=properti-selengkapnya (Manual)
-- Rilis 5.14.0:
-  - Tambah prop UI untuk komponent `input` dan `input_date`.
-  - Tambah info `domain:port` pada deviceName.
-  - Unreg service worker saat logout.
-  - Update sumber data push notif dari `.notification` ke `.data`.
-  - Update route ke halaman detil alarm saat notif diklik/tap.
-  - Tambah info `Ref. ID` pada halaman alarm.
-  - Ref: https://development.daunbiru.com/project/visual-monita/us/4?kanban-status=338 (Kanban)
-  - Ref: https://manual.monita.co.id/visual/#/?id=_5140-2026-06-17 (Manual)
-  - Ref: https://github.com/dbemonita/vismon5/tree/v5.14.0 (Repository)
-- Rilis 5.15.0:
-  - Single config file.
-  - Info update aplikasi dan tools updater (executeable).
-  - Ref: (Kanban)
-  - Ref: (Repository)
+- Tambah info `Ref. ID` pada halaman alarm.
 
 ### Lain-lain
 
