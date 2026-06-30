@@ -37,6 +37,8 @@
 - Tambah prop `allowed_roles` untuk komponen 2 arah.
   - Ref: https://development.daunbiru.com/project/manual-monita/us/2?kanban-status=344 (Kanban)
   - Ref: https://manual.monita.co.id/visual/#/hmi_input?id=properti-selengkapnya (Manual)
+- Tambah button show/hide password pada form login.
+  - Ref: https://development.daunbiru.com/project/visual-monita/us/7?kanban-status=338 (Kanban)
 
 ### Lain-lain
 
