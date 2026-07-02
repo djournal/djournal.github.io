@@ -31,7 +31,7 @@
 - Tambah halaman restart server untuk user dengan role root atau admin.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/25?kanban-status=314 (Kanban)
   - Ref: https://manual.monita.co.id/admin/#/?id=restart-server (Manual)
-- Tampilkan scrollbar pada section parameters, form formula, page asset management.
+- Menampilkan scrollbar pada section parameters, form formula, page asset management.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/27?kanban-status=314 (Kanban)
 
 ### Visual Monita
