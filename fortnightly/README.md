@@ -26,8 +26,11 @@
   - Ref: https://development.daunbiru.com/project/admin-monita/us/16?kanban-status=310 (Kanban)
 - Tambah info server pada halaman login (pojok kiri atas).
   - Ref: https://development.daunbiru.com/project/admin-monita/us/23?kanban-status=314
-- Perbaikan posisi toast saat form sidebar dibukan.
-  - Ref: https://development.daunbiru.com/project/admin-monita/us/24?kanban-status=314
+- Perbaikan posisi toast saat form sidebar dibuka.
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/24?kanban-status=314 (Kanban)
+- Tambah halaman restart server untuk user dengan role root atau admin.
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/25?kanban-status=314 (Kanban)
+  - Ref:
 
 ### Visual Monita
 
