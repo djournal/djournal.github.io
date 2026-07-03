@@ -47,7 +47,7 @@
   - Target: Alarm page, Sidebar widget, Navbar icon.
   - Ref: https://development.daunbiru.com/project/alarm/us/10?kanban-status=302 (Kanban)
 - Tambah info `Ref. ID` pada halaman detil alarm.
-- Tambah prop `allowed_roles` untuk komponen 2 arah.
+- Tambah prop `allowed_roles` untuk komponen 2 arah (input).
   - Ref: https://development.daunbiru.com/project/manual-monita/us/2?kanban-status=344 (Kanban)
   - Ref: https://manual.monita.co.id/visual/#/hmi_input?id=properti-selengkapnya (Manual)
 - Tambah button show/hide password pada form login.
