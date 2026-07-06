@@ -4,6 +4,9 @@
 
 ### Admin Monita
 
+- Tambah paging pada active dan stale devices.
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/28?kanban-status=314
+
 ### Visual Monita
 
 ## 📅 2026-07-03
