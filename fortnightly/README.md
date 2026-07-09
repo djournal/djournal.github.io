@@ -28,6 +28,6 @@
 - Perbaikan tombol download PDF pada halaman tipe visual e-paper.
   - Ref: https://development.daunbiru.com/project/visual-monita/us/11?kanban-status=338 (Kanban)
 
-## ARCHIVED
+## ARCHIVE
 
 Go to [archive page &rarr;](./archive.md)
