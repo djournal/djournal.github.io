@@ -14,6 +14,8 @@
   - Ref: https://development.daunbiru.com/project/admin-monita/us/31?kanban-status=314 (Kanban)
 - Tambah paginator pada active dan stale devices.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/28?kanban-status=314 (Kanban)
+- Perbaikan list active/stale device halaman dashboard.
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/34?kanban-status=310
 
 ### Visual Monita
 
