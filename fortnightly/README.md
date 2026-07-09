@@ -15,7 +15,7 @@
 - Tambah paginator pada active dan stale devices.
   - Ref: https://development.daunbiru.com/project/admin-monita/us/28?kanban-status=314 (Kanban)
 - Perbaikan list active/stale device halaman dashboard.
-  - Ref: https://development.daunbiru.com/project/admin-monita/us/34?kanban-status=310
+  - Ref: https://development.daunbiru.com/project/admin-monita/us/34?kanban-status=310 (Kanban)
 
 ### Visual Monita
 
@@ -29,6 +29,11 @@
   - Ref: https://development.daunbiru.com/project/visual-monita/us/10?kanban-status=338 (Kanban)
 - Perbaikan tombol download PDF pada halaman tipe visual e-paper.
   - Ref: https://development.daunbiru.com/project/visual-monita/us/11?kanban-status=338 (Kanban)
+
+### Lain-lain
+
+- Android rilis ke-5, build ke-9, versi 5.16.2
+  - Ref: https://development.daunbiru.com/project/vismon-android-app/us/8?kanban-status=326 (Kanban)
 
 ## ARCHIVE
 
