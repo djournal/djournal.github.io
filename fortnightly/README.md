@@ -29,6 +29,9 @@
   - Ref: https://development.daunbiru.com/project/visual-monita/us/10?kanban-status=338 (Kanban)
 - Perbaikan tombol download PDF pada halaman tipe visual e-paper.
   - Ref: https://development.daunbiru.com/project/visual-monita/us/11?kanban-status=338 (Kanban)
+- Menambahkan komponen visual `select`.
+  - Ref: https://development.daunbiru.com/project/visual-monita/us/14?kanban-status=338 (Kanban)
+  - Ref: https://manual.monita.co.id/visual/#/hmi_select (Manual)
 
 ### Lain-lain
 
