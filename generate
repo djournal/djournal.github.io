@@ -77,11 +77,20 @@ function generateFile(year, week) {
 
   const range = getWeekRange(year, week);
 
-  const content = `# W${week}, ${year}
+  const content_old = `# W${week}, ${year}
 
 <span class="week-meta">${range}</span>
 
 ## 💡 Rencana
+
+## 🚧 Pekerjaan
+
+## 📒 Catatan
+`;
+
+  const content = `# W${week}, ${year}
+
+<span class="week-meta">${range}</span>
 
 ## 🚧 Pekerjaan
 
