@@ -93,8 +93,6 @@ function generateFile(year, week) {
 <span class="week-meta">${range}</span>
 
 ## 🚧 Pekerjaan
-
-## 📒 Catatan
 `;
 
   writeFileIfMissing(filePath, content);
